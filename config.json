@@ -1,0 +1,11 @@
+{
+  "webcam_index": 0,
+  "telegram_token": "8026187660:AAHKy6APRY0ZUq8Q4O8INCLpR217B8MieHg",
+  "telegram_chat_id": "7502565654",
+  "rtsp_cameras": {
+    "Склад": "rtsp://admin:admin123@192.168.1.108:554/cam/realmonitor?channel=1&subtype=1",
+    "Вход": "rtsp://admin:password@192.168.1.102:554/cam/realmonitor?channel=1&subtype=1",
+    "Периметр": "rtsp://admin:password@192.168.1.103:554/cam/realmonitor?channel=1&subtype=1",
+    "курилка": "rtsp://admin:password@192.168.1.104:554/cam/realmonitor?channel=1&subtype=1"
+  }
+}
