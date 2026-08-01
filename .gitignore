@@ -9,11 +9,3 @@ venv/
 *.egg-info/
 dist/
 build/
-mmaction2-main/
-openpose-master/
-alerts_history.db
-pose_landmarker_heavy.task
-weights/
-results/
-data/
-install_models.ps1
