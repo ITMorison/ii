@@ -1,0 +1,8 @@
+{
+  "webcam_index": null,
+  "telegram_token": "8026187660:AAHKy6APRY0ZUq8Q4O8INCLpR217B8MieHg",
+  "telegram_chat_id": "7502565654",
+  "rtsp_cameras": {
+    "Тест_Камера_xcom": "https://cam.xcom.kz:2443/13-1/video.m3u8"
+  }
+}

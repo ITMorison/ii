@@ -1,0 +1,10 @@
+cameras:
+  - name: "Камера 1 (Веб-камера)"
+    source: "webcam"
+    index: 0
+  - name: "Камера 2 (Склад)"
+    source: "rtsp://admin:password@192.168.1.101:554/stream1"
+  - name: "Камера 3 (Вход)"
+    source: "rtsp://admin:password@192.168.1.102:554/stream1"
+  - name: "Камера 4 (Периметр)"
+    source: "rtsp://admin:password@192.168.1.103:554/stream1"

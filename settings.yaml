@@ -1,0 +1,36 @@
+camera_source: "https://cam.xcom.kz:2443/amfiteatr15a/video.m3u8"
+
+# Порог срабатывания тревоги по умолчанию
+alert_threshold: 0.50  
+
+# Расширенные формулировки для CLIP детектора
+labels:
+  - "normal situation, safe environment, peaceful people, calm street, ordinary day"
+  - "violence, physical fight, assault, hitting person, brawl, aggressive attack"
+  - "fire, heavy smoke, flames, building burning, emergency explosion"
+  - "bullying, group harassment, pushing victim, intimidation, school aggression"
+  - "weapons, armed person, holding gun, holding knife, dangerous threat"
+  - "person falling, lying down unconscious, medical emergency, sudden collapsed body"
+
+# Правила детекции и алертов по классам
+event_rules:
+  fight:
+    ru_name: "Драка / Насилие"
+    threshold: 0.30
+  fire:
+    ru_name: "Пожар / Дым"
+    threshold: 0.25
+  bullying:
+    ru_name: "Буллинг (Экспериментально)"
+    threshold: 0.35
+  weapon:
+    ru_name: "Оружие"
+    threshold: 0.30
+  fall:
+    ru_name: "Падение / Потеря сознания"
+    threshold: 0.50
+
+video_alert:
+  pre_event_seconds: 10
+  post_event_seconds: 20
+  fps: 30

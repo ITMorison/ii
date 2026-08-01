@@ -1,0 +1,11 @@
+numpy
+opencv-python
+torch
+torchvision
+streamlit
+pyyaml
+requests
+streamlit-autorefresh
+open_clip_torch
+protobuf<4.0.0
+mmaction2
